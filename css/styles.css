@@ -359,6 +359,9 @@ body {
 .footer_text {
   width: 264px;
 }
+.footer_social_wrapper {
+  margin-right: 80px;
+}
 .footer_social_text {
   font-weight: 500;
   color: #ffffff;
@@ -386,6 +389,55 @@ body {
 }
 .footer_item_icon {
   fill: #f4f4fd;
+}
+.footer_form_title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer_label {
+  display: flex;
+  gap: 24px;
+}
+.footer_imput {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 8px 16px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.footer_submit_btn {
+  border-radius: 4px;
+  width: 165px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer_submit_btn:hover {
+  background-color: #404bbf;
+}
+.ubmit_bfooter_stn_icon {
+  fill: #ffffff;
 }
 /* ===BACKDROP===================== */
 .backdrop {
