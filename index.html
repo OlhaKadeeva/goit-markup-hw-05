@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- fix4 -->
     <!-- HEADER -->
     <header class="header">
       <div class="header_container container">
@@ -514,13 +515,13 @@
         </p>
         <form class="reviw_form">
           <div class="review_form_field_wrapper">
-            <label class="review_form_field_label" for="user_name">Name</label>
+            <label for="user_name" class="review_form_field_label">Name</label>
             <div class="review_form_input_wrapper">
               <input
-                class="review_form_input"
-                type="text"
                 id="user_name"
                 name="user_name"
+                class="review_form_input"
+                type="text"
                 pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
                 title="Alisa"
                 required
@@ -565,13 +566,13 @@
             </div>
           </div>
           <div class="review_form_field_wrapper">
-            <label class="review_form_field_label" for="user_comment"
+            <label for="user_comment" class="review_form_field_label"
               >Comment</label
             >
             <textarea
-              class="review_form_message"
               id="user_comment"
               name="user_comment"
+              class="review_form_message"
               required
               placeholder="Text input"
             ></textarea>
@@ -592,7 +593,7 @@
                   height="8"
                 >
                   <use href="./images/icons.svg#icon-check"></use></svg></span
-              ><span>I accept the terms and conditions of the</span>
+              >I accept the terms and conditions of the
               <a class="privacy_policy_link" href="">Privacy Policy</a>
             </label>
           </div>

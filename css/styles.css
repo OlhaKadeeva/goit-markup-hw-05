@@ -515,7 +515,7 @@ body {
   color: #2e2f42;
 }
 .review_form_field_wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review_form_field_label {
   display: block;
@@ -612,17 +612,12 @@ body {
   > .review_form_own_checkbox {
   background-color: #404bbf;
   fill: #f4f4fd;
-
   border: none;
 }
-/* .review_form_checkbox:focus
-  + .review_form_checkbox_label
-  .review_form_own_checkbox {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
-} */
+
 .privacy_policy_link {
-  text-decoration: underline;
   color: #4d5ae5;
+  text-decoration: underline;
   display: inline-block;
 }
 .review_form_submit {
