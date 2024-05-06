@@ -520,18 +520,14 @@ body {
 .review_form_field_label {
   display: block;
   font-size: 12px;
-
+  margin-bottom: 4px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.review_form_field_label p {
-  margin-bottom: 4px;
-}
+
 .review_form_input_wrapper {
   position: relative;
-  border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .review_form_input {
   border-radius: 4px;
@@ -541,7 +537,7 @@ body {
   padding-left: 38px;
   background-color: transparent;
   outline: transparent;
-  border-color: transparent;
+  /* border-color: transparent; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review_form_input:focus {
